@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Reem+Kufi+Ink&family=Rubik+Iso&display=swap');
+
+* {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    margin: 15px;
+}
+
+body {
+    color: rgb(128, 20, 20);
+    background: black;
+}
+
+.p{
+    font-size: 2.25em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flamengo {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+    
+.integrantes {
+    display: block;
+    margin: auto;
+}
+
+.tab {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.form {
+    margin: auto; 
+}
+
+.botao1{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #ff1100;
+    box-shadow: -2px 3px 0 rgb(246, 37, 0), -4px 2px 0 #690900;
+}
+
+.botao1:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
+
+.botao2{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #ff1100;
+    box-shadow: -2px 3px 0 rgb(246, 37, 0), -4px 2px 0 #690900;
+}
+
+.botao2:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
+
+.botao3{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #ff1100;
+    box-shadow: -2px 3px 0 rgb(246, 37, 0), -4px 2px 0 #690900;
+}
+
+.botao3:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
+
+.botao4{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #ff1100;
+    box-shadow: -2px 3px 0 rgb(246, 37, 0), -4px 2px 0 #690900;
+}
+
+.botao4:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
+
+.botao5{
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #ff1100;
+    box-shadow: -2px 3px 0 rgb(246, 37, 0), -4px 2px 0 #690900;
+}
+
+.botao5:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
